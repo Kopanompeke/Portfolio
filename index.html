@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Kopano Mpeke Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Home-section" id="home">
+        <div class="home">
+            <h1>Hello</h1>
+            <hr class="hr">
+            <h2>Bradley Kopano</h2>
+            <h1>Mpeke</h1>
+            <p>Meet your next promising web developer.</p>
+        </div>
+        <div class="button">
+            <button><a href="BKM C.V.pdf" target="_blank">Download CV</a></button>
+        </div>
+    </section>
+
+    <section class="About-section fade-in" id="about">
+        <div class="about-image">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./images/Kopano Mpeke.JPG" alt="Kopano Mpeke">
+                </div>
+            </div>
+        </div>
+        <div class="about-me">
+            <h1>About me</h1>
+            <p>Hi, I'm <strong>Bradley Kopano Mpeke</strong>, a passionate web developer 
+                with a love for turning complex problems into simple, elegant solutions. 
+                I believe that the best websites and applications are those that are both 
+                beautiful and functional, and I'm dedicated to delivering exceptional digital 
+                experiences that make a real difference in people's lives.</p>
+            <div class="icons"> 
+                <a href="https://github.com/Kopanompeke" target="_blank"><i class='bx bxl-github'></i></a> 
+                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a> 
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class='bx bxl-linkedin'></i></a> 
+                <a href="mailto:kokobradley570@gmail.com"><i class='bx bx-envelope'></i></a> 
+            </div>
+        </div>
+    </section>
+
+    <section class="Portfolio-section fade-in" id="portfolio">
+        <div class="portfolio-container">
+            <div class="skills">
+                <h1>Skills</h1>
+                <div class="buttons">
+                    <button class="btn">HTML</button>
+                    <button class="btn">CSS</button>
+                    <button class="btn">JavaScript</button>
+                    <button class="btn">C++</button>
+                    <button class="btn">Java</button>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h1>Projects</h1>
+                <div class="image-slider">
+                    <img src="./images/loading.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="navigation">
+                    <button class="prev-btn">&lt;</button>
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact fade-in" id="contact">
+        <h2>Contact me</h2>
+        <form class="form" id="contact-form"> 
+            <div class="input"> 
+                <input type="text" placeholder="Name" id="name" required> 
+                <input type="email" placeholder="Email" id="email" required> 
+                <input type="tel" placeholder="Phone number" id="phone" required> 
+            </div> 
+            <div class="textarea"> 
+                <textarea placeholder="Your message..." cols="10" rows="5" required></textarea> 
+            </div> 
+            <button type="submit">Send Message</button>             
+        </form>
+    </section>
+
+    <footer class="footer">
+        <ul class="list">
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">&copy; 2024 BRADLEY KOPANO MPEKE PORTFOLIO. All rights reserved/Mr Owami</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
